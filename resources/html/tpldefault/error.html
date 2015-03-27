@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html> 
+<head>
+<style type="text/css">
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body
+{
+    position: relative;
+    background-color: #aaa;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 1.2em;
+    font-family: "Garamond","Book antiqua","Goudy Old Style","Palatino Linotype",sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6
+{
+    color: #9a0;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.spacer
+{
+    clear: both;
+}
+.hmargin
+{
+    margin: 0 auto;
+    max-width: 900px;
+}
+/**/
+
+
+/*
+########################################
++++++   shared/css/menu.php   +++++   
+*/
+#header
+{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    background-color: #AF2;
+/* http://www.colorzilla.com/gradient-editor/ */
+background: #d4ff00; /* Old browsers */
+background: -moz-linear-gradient(top,  #d4ff00 0%, #20f920 69%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4ff00), color-stop(69%,#20f920)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d4ff00 0%,#20f920 69%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d4ff00 0%,#20f920 69%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d4ff00 0%,#20f920 69%); /* IE10+ */
+background: linear-gradient(to bottom,  #d4ff00 0%,#20f920 69%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4ff00', endColorstr='#20f920',GradientType=0 ); /* IE6-9 */
+}
+#header a
+{
+    display: block;
+
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 3px;
+
+    text-decoration: none;
+    
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #000;
+}
+#header a:hover,
+#header a:active,
+#header a.active
+{
+    padding-bottom: 0;
+    border-bottom: 3px solid #000;
+    color: #000;
+}
+#header img
+{
+    padding: 0;
+    height: 1em;
+    vertical-align: middle;
+}
+
+#content .wf
+{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #AF2;
+    padding: 1.5em 10%;
+    margin: 1.5em 0;
+}
+#content .wf img.left
+{
+    margin-right:10%;
+    width:15%;
+}
+
+#eyecatcher.wf
+{
+    text-align: center;
+    margin: 0;
+    border: 0;
+}
+
+#eyecatcher .default,
+#eyecatcher .hover
+{
+    height:2em;
+}
+
+#eyecatcher .default
+{
+    display: inline;
+}
+#eyecatcher .hover
+{
+    display: none;
+}
+
+#eyecatcher a:hover .default
+{
+     display: none;
+}
+#eyecatcher a:hover .hover
+{
+     display: inline;
+}
+
+
+
+
+/*
+########################################
++++++   shared/css/media.php   +++++   
+*/
+@media print {
+    .menu{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    #content
+    {
+        padding: 0em 3em;
+    }
+    #content .wf{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+@media (max-width: 600px) {
+    #menu a{
+        clear: both;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 3px;
+    }
+    #content .wf{
+        padding: 0;
+    }
+    #overlaycontent
+    {
+        position: relative;
+        margin: 1em 0;
+    }
+    form > div {
+        margin: 0 0 15px 0; 
+    }
+    form > div > label,
+    legend {
+        width: 100%;
+        float: none;
+        margin: 0 0 5px 0;
+    }
+    form > div > div,
+    form > div > fieldset > div {
+        width: 100%;
+        float: none;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=url],
+    input[type=password],
+    textarea,
+    select {
+        width: 100%;
+    }
+}
+/*
+@media (min-width: 1200px) {
+  form > div > label,
+  legend {
+    text-align: right;
+    padding-right: 10px;
+  }
+}
+*/
+
+    </style>
+<!-- Browser parameters//-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- General //-->
+    <title>404 pagina niet gevonden</title>
+    <meta name="description" content="Hariot Gaetan - Design - Websites - IT - Computer - Laptop">
+    <meta name="keywords" content="Hariot Gaetan,Design,Websites,IT,Computer,Laptop">
+    <meta name="language" content="NL">
+</head>
+<body>
+<div id="main">
+    
+<div id="header" style="/*position: fixed;top:0;z-index:999;*/">
+    <div class="hmargin">
+        <a href="http://www.oeliewoep.be/" class="left active"><img src="http://www.oeliewoep.be/shared/img/mijn-it.png" alt="mijn-it"></a>
+        <div class="spacer"></div>
+    </div>
+    <div class="hmargin"></div>
+</div>
+    
+<div id="content">    
+    <div class="hmargin">
+    <div class="wf" id="eyecatcher">
+        <!--Sorry! Something went wrong! Please try again later. //-->
+        <h3>Oeps, de pagina kan niet worden gevonden</h3>
+        <p>Ga naar de nieuwe <a href="http://www.oeliewoep.be/">startpagina</a>.</p>
+        <div class="spacer"></div>
+    </div>
+    </div>
+</div>
+    
+
+</div>
+</body>
+</html>
